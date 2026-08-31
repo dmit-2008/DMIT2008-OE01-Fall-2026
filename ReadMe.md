@@ -1,4 +1,4 @@
-# DMIT-2008 - **Student Workbook** (Jan 2026) ![Docs](https://img.shields.io/badge/Documentation%20Status-%7E10%25%20Minimal%20Outline-lightgrey?logo=Read%20the%20Docs)
+# DMIT-2008 - **Student Workbook** (Fall 2026) ![Docs](https://img.shields.io/badge/Documentation%20Status-%7E10%25%20Minimal%20Outline-lightgrey?logo=Read%20the%20Docs)
 
 > **STUDENT_NAME** - Place your name in this line.
 
