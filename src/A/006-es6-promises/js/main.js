@@ -5,7 +5,7 @@
 //       instead of passing callbacks into a function."
 
 // Simple setTimeout example
-let wait = ms => new Promise(resolve => setTimeout(res, ms)); // reject not needed, cuz setTimeout doesn't really fail
+let wait = ms => new Promise(resolve => setTimeout(resolve, ms)); // reject not needed, cuz setTimeout doesn't really fail
 // Now you can wait without passing a callback... kinda
 wait(3000).then(() => console.log('Waited three seconds.'));
 
