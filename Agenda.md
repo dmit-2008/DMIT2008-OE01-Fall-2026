@@ -42,62 +42,67 @@
   - Destructuring
   - Exports & Imports
 - Examples in VSCode
-  - [ ] Block Scope
-  - [ ] Template Literals
-  - [ ] Functions Destructuring
+  - [X] Block Scope
+  - [X] Template Literals
+  - [X] Functions Destructuring
 - Coding Exercise: JS Review Break Activities
 - **SELF-DIRECTED TASKS:**
-  - [ ] Read the instructions for the *Astronauts* demo and set up the Node project for that starter kit.
+  - [X] Read the instructions for the *Astronauts* demo and set up the Node project for that starter kit.
 
 ### Sept 14 (Day 3)
 
-  - Lecture: JS Refresh - NPM ES Modules
-    - Reference: (docs/slides/DMIT2008-Week2-Day1-new.pptx)
-    - [ ] First JavaScript Demo + Node Project Setup
+  - Lecture: JS Refresh - NPM ES Modules (docs/slides/DMIT2008-Week2-Day1-new.pptx)
+    - JS Object Fundamentals
+    - JS Object functions and this
+    - Node and NPM
+    - ES Modules
+    - Fetch
+    - Sync and Async code
+    - Custom Promises
+    - Async and Await
+  - [ ] Node Project Setup
   - Coding Exercise: JavaScript Review with the [Astronaut](./src/A/review-astronauts-example-START/README.md) demo
 
-- **SELF-DIRECTED TASKS:**
-  - [ ] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
-
-  - Create weather-app foder under ./src/A/weather-app
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Sep-2025/sk/A/weather-app-start ./src/A/weather-app
-      ```
+- **ASSIGNMENTS:**
+  - Assignment 1 - (Job Search App) Overview, Due in 2 weeks. (Sept 30)
 
 ### Sept 17 (Day 4)
 
-- ***Check-In***
-  - [ ] Did you work on the [Astronaut](./src/A/review-astronauts-example-START/README.md) demo?
-  - [ ] QnA
-- **Today**
-  - [ ] Ad-Hoc JavaScript QuickStart to explore 
   - [ ] Sign up for the [Open Weather API](https://home.openweathermap.org/users/sign_up)
   - [ ] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/A/weather-app-start ./src/A/weather-app
       ```
-- **ASSIGNMENTS:**
-  - Release Assignment 1
+
+  - [ ] Use VITE as build tool and dev server (alternative to parcel)
   
 ### Sept 21 (Day 5)
 
-- **Today**
+ - Begin Topic B
+  - [ ] Lecture: React & Next.js
   - [ ] Resume Weather App
-  - [ ] Begin Topic B
 
 
 ### Sept 24 (Day 6)
 
-- **Today**
-  - [ ] Begin Topic B
+  - [ ] Lecture: React Props & Wrapper MUI
+  - [ ] Discuss Practical 2 Assigment
+  - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
+    - This requires you to read the official documentation on MUI components used in this assignment.
+      - Avoid copy/paste! Type in the code you need.
+      - Design doesn't need to be *pixel-perfect*, but it does need to be close to what you see in the screenshots.
+    - Bonus marks will *NOT* raise your mark over 100%.
+    - You can loose up to 50% of your mark if your commit history is insufficient or unbalanced. I expect a *realistic* commit history showing your progression through the lab.
+    - Unit tests are NOT being looked at. I am doing manual review of all your code.
+ 
     - [NextJS Intro](./src/B/nextjs-intro-START/README.md)
     - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
 
 
 ### Sept 28 (Day 7)
 
-- **Today**
+  - [ ] Assignment 1 DUE ON SEPT 30
   - [ ] Continue Topic B
     - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
     - [Bootstrap Component Library](./src/B/nextjs-bootstrap-component-library-START/README.md)
@@ -105,8 +110,6 @@
 
 ### Oct 1 (Day 8)
 
-- **Today**
-  - [ ] Assignment 1 DUE ON OCT 2
   - [ ] Complete Part B - Bootstrap and MUI
     - [MUI Component Library](./src/B/nextjs-mui-component-library-START/README.md)
   - [ ] Identify the [**main takeaways**](./src/B/Takeaways.md)
@@ -114,15 +117,7 @@
 
 ### Oct 5 (Day 9)
 
-- **Today**
-  - [ ] Discuss Practical 2 Assigment
-    - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
-    - This requires you to read the official documentation on MUI components used in this assignment.
-      - Avoid copy/paste! Type in the code you need.
-      - Design doesn't need to be *pixel-perfect*, but it does need to be close to what you see in the screenshots.
-    - Bonus marks will *NOT* raise your mark over 100%.
-    - You can loose up to 50% of your mark if your commit history is insufficient or unbalanced. I expect a *realistic* commit history showing your progression through the lab.
-    - Unit tests are NOT being looked at. I am doing manual review of all your code.
+  - [ ] Theory 1 - QUIZ in Brightspace
   - [ ] Begin [Part D](./src/D/ReadMe.md)
 
 ### Oct 8 (Day 10)
