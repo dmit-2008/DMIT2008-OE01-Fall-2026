@@ -74,9 +74,18 @@
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/A/weather-app-start ./src/A/weather-app
       ```
-
+  - [ ] Follow the instructions provided by Prof. Dan on this website: (https://dgilleland.github.io/DMIT-2008/lessons/w02-d2/#weather-app)
   - [ ] Use VITE as build tool and dev server (alternative to parcel)
   
+  - **SELF-DIRECTED TASKS:**
+  - [ ] Adhoc REACT + VITE project
+  
+      ```ps
+      pnpm dlx tiged --disable-cache --force dmit-2008/DMIT2008-OE01-Fall-2026/sk/A/react-vite-start ./src/A/react-vite-start
+      ```
+  - [ ] Once you have the codes in your local dev environment, right click on the project folder, open integrated terminal. Run `npm install` to install the node module. Then, run `npm run dev` to start the website. Explore REACT and VITE documentations.
+
+
 ### Sept 21 (Day 5)
 
  - Begin Topic B
