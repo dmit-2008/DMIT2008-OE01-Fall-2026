@@ -60,7 +60,7 @@
     - Sync and Async code
     - Custom Promises
     - Async and Await
-  - [ ] Node Project Setup
+  - [X] Node Project Setup
   - Coding Exercise: JavaScript Review with the [Astronaut](./src/A/review-astronauts-example-START/README.md) demo
 
 - **ASSIGNMENTS:**
@@ -68,14 +68,14 @@
 
 ### Sept 17 (Day 4)
 
-  - [ ] Sign up for the [Open Weather API](https://home.openweathermap.org/users/sign_up)
-  - [ ] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
+  - [X] Sign up for the [Open Weather API](https://home.openweathermap.org/users/sign_up)
+  - [X] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/A/weather-app-start ./src/A/weather-app
       ```
-  - [ ] Follow the instructions provided by Prof. Dan on this website: (https://dgilleland.github.io/DMIT-2008/lessons/w02-d2/#weather-app)
-  - [ ] Use VITE as build tool and dev server (alternative to parcel)
+  - [X] Follow the instructions provided by Prof. Dan on this website: (https://dgilleland.github.io/DMIT-2008/lessons/w02-d2/#weather-app)
+  - [X] Use VITE as build tool and dev server (alternative to parcel)
   
   - **SELF-DIRECTED TASKS:**
   - [ ] Adhoc REACT + VITE project
