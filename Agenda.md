@@ -68,6 +68,7 @@
 
 ### Sept 17 (Day 4)
 
+  - Lecture: JS Wrap-up (docs/slides/DMIT2008-Week2-Day2.pptx)
   - [X] Sign up for the [Open Weather API](https://home.openweathermap.org/users/sign_up)
   - [X] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
@@ -78,24 +79,30 @@
   - [X] Use VITE as build tool and dev server (alternative to parcel)
   
   - **SELF-DIRECTED TASKS:**
-  - [ ] Adhoc REACT + VITE project
+  - [X] Adhoc REACT + VITE project
   
       ```ps
       pnpm dlx tiged --disable-cache --force dmit-2008/DMIT2008-OE01-Fall-2026/sk/A/react-vite-start ./src/A/react-vite-start
       ```
-  - [ ] Once you have the codes in your local dev environment, right click on the project folder, open integrated terminal. Run `npm install` to install the node module. Then, run `npm run dev` to start the website. Explore REACT and VITE documentations.
+  - [X] Once you have the codes in your local dev environment, right click on the project folder, open integrated terminal. Run `npm install` to install the node module. Then, run `npm run dev` to start the website. Explore REACT and VITE documentations.
 
 
 ### Sept 21 (Day 5)
 
- - Begin Topic B
-  - [ ] Lecture: React & Next.js
-  - [ ] Resume Weather App
+ - 5pm - 6pm: Student Work Period (Assignment #1 - Job Search App, Weather App, Astronaut, VITE)
+ - Begin Topic B at 6pm
+  - [ ] Lecture: React & Next.js (docs/slides/DMIT2008-Week3-Day1-react-new.pptx)
+  - [ ] Examples in Student Workbook Topic B:
+    - [NextJS Intro](./src/B/nextjs-intro-START/README.md)
 
 
 ### Sept 24 (Day 6)
 
-  - [ ] Lecture: React Props & Wrapper MUI
+  - [ ] Lecture: React Props & Wrapper MUI (docs/slides/DMIT2008-Week3-Day2-react-props-and-wrappers-mui.pptx)
+  - [ ] Continue Examples in Student Workbook Topic B:
+    - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
+    - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
+
   - [ ] Discuss Practical 2 Assigment
   - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
     - This requires you to read the official documentation on MUI components used in this assignment.
@@ -104,25 +111,22 @@
     - Bonus marks will *NOT* raise your mark over 100%.
     - You can loose up to 50% of your mark if your commit history is insufficient or unbalanced. I expect a *realistic* commit history showing your progression through the lab.
     - Unit tests are NOT being looked at. I am doing manual review of all your code.
- 
-    - [NextJS Intro](./src/B/nextjs-intro-START/README.md)
-    - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
+
 
 
 ### Sept 28 (Day 7)
 
-  - [ ] Assignment 1 DUE ON SEPT 30
-  - [ ] Continue Topic B
-    - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
+  - [ ] Announcement: Assignment 1 DUE ON SEPT 30
+  - [ ] Complete Part B - Bootstrap and MUI
     - [Bootstrap Component Library](./src/B/nextjs-bootstrap-component-library-START/README.md)
+    - [MUI Component Library](./src/B/nextjs-mui-component-library-START/README.md)
 
 
 ### Oct 1 (Day 8)
-
-  - [ ] Complete Part B - Bootstrap and MUI
-    - [MUI Component Library](./src/B/nextjs-mui-component-library-START/README.md)
   - [ ] Identify the [**main takeaways**](./src/B/Takeaways.md)
   - [ ] Begin [Part C](./src/C/ReadMe.md)
+
+
 
 ### Oct 5 (Day 9)
 

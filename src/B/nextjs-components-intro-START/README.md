@@ -31,7 +31,7 @@ under the title tag in the "main"
 
 - Observe the differences on the page as you make the changes.
 
-7. Create a new component called "NewConcept" in a folder called "NewConcept.js" like you did with the "Hello" component. The only difference is that you're going to pass a parameter named "props"
+7. Create a new component called "NewConcept.js" in a folder called components like you did with the "Hello" component. The only difference is that you're going to pass a parameter named "props"
 - in your component use the prop named "concept" in the component itself. It should look something like below.
 ```jsx
   return <p>
@@ -84,4 +84,4 @@ under the title tag in the "main"
 
 - Observe the differences on the page.
 
-Note: this notation is how we're going to name componts throughout the course. That is the file having the same as the name of the component.
+Note: this notation is how we're going to name components throughout the course. That is the file having the same as the name of the component.
