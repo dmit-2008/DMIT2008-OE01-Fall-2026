@@ -91,8 +91,8 @@
 
  - 5pm - 6pm: Student Work Period (Assignment #1 - Job Search App, Weather App, Astronaut, VITE)
  - Begin Topic B at 6pm
-  - [ ] Lecture: React & Next.js (docs/slides/DMIT2008-Week3-Day1-react-new.pptx)
-  - [ ] Examples in Student Workbook Topic B:
+  - [X] Lecture: React & Next.js (docs/slides/DMIT2008-Week3-Day1-react-new.pptx)
+  - [X] Examples in Student Workbook Topic B:
     - [NextJS Intro](./src/B/nextjs-intro-START/README.md)
 
 
