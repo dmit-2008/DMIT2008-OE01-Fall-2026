@@ -102,7 +102,7 @@
   - [ ] Continue Examples in Student Workbook Topic B:
     - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
     - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
-  - [ ] TO DO : Coding Challenge - [Working with Props](src\B\nextjs-components-intro-START\TO-DO.md)
+  - [ ] TO DO : Coding Challenge - [Working with Props](./src/B/nextjs-components-intro-START/TO-DO.md)
   - [ ] Announcement: Assigment 2 - Dashboard User Interface using MUI will be released on Friday (Sept 25), due after 2 weeks - Friday (Oct 9)
 
 
