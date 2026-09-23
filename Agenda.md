@@ -102,8 +102,8 @@
   - [ ] Continue Examples in Student Workbook Topic B:
     - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
     - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
-
-  - [ ] Discuss Practical 2 Assigment
+  - [ ] TO DO : Coding Challenge - Working with Props
+  - [ ] Announcement: Assigment 2 - Dashboard User Interface using MUI will be released on Friday (Sept 25), due after 2 weeks - Friday (Oct 9)
   - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
     - This requires you to read the official documentation on MUI components used in this assignment.
       - Avoid copy/paste! Type in the code you need.
@@ -111,7 +111,6 @@
     - Bonus marks will *NOT* raise your mark over 100%.
     - You can loose up to 50% of your mark if your commit history is insufficient or unbalanced. I expect a *realistic* commit history showing your progression through the lab.
     - Unit tests are NOT being looked at. I am doing manual review of all your code.
-
 
 
 ### Sept 28 (Day 7)
