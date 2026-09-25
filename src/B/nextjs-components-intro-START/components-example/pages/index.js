@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Hello from '../components/Hello';
 import NewConcept from "@/components/NewConcept";
 import ComponentWrapper from "@/components/ComponentWrapper";
+import CourseGoal from '@/components/CourseGoal';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,32 @@ export default function Home() {
               <NewConcept concept={"how to use props in a component"} />
               <NewConcept concept={"how children property works"} />
             </ComponentWrapper>
+            <br/>
+
+            <h2>COURSE GOALS</h2>
+            <ul>
+              <CourseGoal 
+                title="Learn React"
+                description="the library for web and native UI"
+                />
+              <CourseGoal
+                title ="Learn NextJS"
+                description="full-stack framework for react"
+                />
+              <CourseGoal
+                title="Learn More"
+                description="In-depth"
+              >
+                <ul>
+                  <li>Components takes props</li>
+                  <li>"children" is a special prop that allows you to wrap other components</li>
+                </ul>
+              </CourseGoal>
+             
+            {/* One of them can have a title of “Learn React” and a description of “the library for web and native UI” */}
+            {/* One of them can have a title of “Learn NextJS” and a description of “full-stack framework for react */}
+            </ul>
+
         </main>
       </div>
     </>
