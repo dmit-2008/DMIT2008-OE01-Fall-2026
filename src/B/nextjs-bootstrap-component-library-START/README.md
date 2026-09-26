@@ -14,7 +14,7 @@ You've probably dealt with bootstrap before, so we're going to see the "react" w
     `cd components-bootstrap-example`
     Run the project
     `npm run dev`
-2. Stop your project (ctrl+c) and install react-bootstrap as seen in the [instructions here](https://react-bootstrap.github.io/getting-started/introduction)
+2. Stop your project (ctrl+c) and install react-bootstrap as seen in the [instructions here](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
 - in your terminal (and at the root of the project) install bootstrap via npm `npm install react-bootstrap bootstrap`
 - just as we've done in CPSC1520, we need to add the bootstrap stylesheets to the entry point of the application.
 ```js
@@ -27,9 +27,9 @@ Note: for next.js we need to add this bootstrap to the `_app.js` file so that th
 3. Remove the classes from all components and only keep the title like we've done in previous examples.
 
 4. Let's add some components from this library explore how to understand and read the documentation.
-- As you're reading the documentation of react bootstrap you need to understand how to import the components in your application. You can import components into your file by [looking at this part of the docs](https://react-bootstrap.github.io/getting-started/introduction/#importing-components)
+- As you're reading the documentation of react bootstrap you need to understand how to import the components in your application. You can import components into your file by [looking at this part of the docs](https://react-bootstrap.netlify.app/docs/getting-started/introduction/#importing-components)
 	- Add the button like they do in the docs right here.
-- Let's take a look a look at the [bootstrap grid](https://react-bootstrap.github.io/layout/grid/)
+- Let's take a look a look at the [bootstrap grid](https://react-bootstrap.netlify.app/docs/layout/grid)
 	- let's copy the code in the layout so that we can row and columns in our project.
 	- import the components using the technique you just learned in the previous bullet point.
 	- observe the changes on the page, but also see that the components "Col" and "Row" use the "children" prop (even if we don't see it) because they are "wrapping" other components.
@@ -56,7 +56,7 @@ const UI_LIBRARY_LIST = [
 	}
 ]
 ```
-- we're going to loop through the `UI_LIBRARY_LIST` to display the list of available ui libraries. We're going to use the [bootstrap list groups](https://react-bootstrap.netlify.app/components/list-group/#basic-example)
+- we're going to loop through the `UI_LIBRARY_LIST` to display the list of available ui libraries. We're going to use the [bootstrap list groups](https://react-bootstrap.netlify.app/docs/components/list-group#basic-example)
 to display this information.
 - within the JSX we're going to loop through the list of object using `map` like we did for the last example. At the end this is what the JS will look like
 ```js
