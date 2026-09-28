@@ -98,12 +98,12 @@
 
 ### Sept 24 (Day 6)
 
-  - [ ] Lecture: React Props & Wrapper MUI (docs/slides/DMIT2008-Week3-Day2-react-props-and-wrappers-mui.pptx)
-  - [ ] Continue Examples in Student Workbook Topic B:
+  - [X] Lecture: React Props & Wrapper MUI (docs/slides/DMIT2008-Week3-Day2-react-props-and-wrappers-mui.pptx)
+  - [X] Continue Examples in Student Workbook Topic B:
     - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
     - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
-  - [ ] TO DO : Coding Challenge - [Working with Props](./src/B/nextjs-components-intro-START/TO-DO.md)
-  - [ ] Announcement: Assigment 2 - Dashboard User Interface using MUI will be released on Friday (Sept 25), due after 2 weeks - Friday (Oct 9)
+  - [X] TO DO : Coding Challenge - [Working with Props](./src/B/nextjs-components-intro-START/TO-DO.md)
+  - [X] Announcement: Assigment 2 - Dashboard User Interface using MUI will be released on Friday (Sept 25), due after 2 weeks - Friday (Oct 9)
 
 
 ### Sept 28 (Day 7)
@@ -112,12 +112,8 @@
   - [ ] Complete Part B - Bootstrap and MUI
     - [Bootstrap Component Library](./src/B/nextjs-bootstrap-component-library-START/README.md)
     - [MUI Component Library](./src/B/nextjs-mui-component-library-START/README.md)
-
-
-### Oct 1 (Day 8)
-  - [ ] Identify the [**main takeaways**](./src/B/Takeaways.md)
-  - [ ] Begin [Part C](./src/C/ReadMe.md)
-  - [ ] Reminders for Assignment 2 Dashboard User Interface using MUI
+  - [ ] Summary of Topic B [**main takeaways**](./src/B/Takeaways.md)
+  - [ ] Discuss Assignment 2 Dashboard User Interface using MUI
     - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
     - This requires you to read the official documentation on MUI components used in this assignment.
       - Avoid copy/paste! Type in the code you need.
@@ -126,12 +122,20 @@
     - You can loose up to 50% of your mark if your commit history is insufficient or unbalanced. I expect a *realistic* commit history showing your progression through the lab.
     - Unit tests are NOT being looked at. I am doing manual review of all your code.
 
+### Oct 1 (Day 8)
+
+  - [ ] Begin [Part C](./src/C/ReadMe.md)
+  - [ ] Lecture: SASS (docs/slides/DMIT2008-Week4-Day1-sass.pptx)
+    - [ ] In-Class Demo: [SASS Modules](./src/C/nextjs-sass-modules-START/README.md)
+  - [ ] Lecture: Material Theming (docs/slides/DDMIT2008-Week4-Day2-Material-UI-CSS.pptx)
+    - [ ] In-Class Demo: [MUI Theming](./src/C/nextjs-mui-theming-START/README.md)
 
 
 ### Oct 5 (Day 9)
 
-  - [ ] Theory 1 - QUIZ in Brightspace
   - [ ] Begin [Part D](./src/D/ReadMe.md)
+  - [ ] Lecture: React State & Events
+  - [ ] Theory 1 - QUIZ in Brightspace
 
 ### Oct 8 (Day 10)
 
