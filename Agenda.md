@@ -108,12 +108,12 @@
 
 ### Sept 28 (Day 7)
 
-  - [ ] Announcement: Assignment 1 DUE ON SEPT 30
-  - [ ] Complete Part B - Bootstrap and MUI
+  - [X] Announcement: Assignment 1 DUE ON SEPT 30
+  - [X] Complete Part B - Bootstrap and MUI
     - [Bootstrap Component Library](./src/B/nextjs-bootstrap-component-library-START/README.md)
     - [MUI Component Library](./src/B/nextjs-mui-component-library-START/README.md)
-  - [ ] Summary of Topic B [**main takeaways**](./src/B/Takeaways.md)
-  - [ ] Discuss Assignment 2 Dashboard User Interface using MUI
+  - [X] Summary of Topic B [**main takeaways**](./src/B/Takeaways.md)
+  - [X] Discuss Assignment 2 Dashboard User Interface using MUI
     - Already has a `package.json` and a `package-lock.json`, implying that you should use `npm` for further dependency installs.
     - This requires you to read the official documentation on MUI components used in this assignment.
       - Avoid copy/paste! Type in the code you need.
@@ -124,11 +124,11 @@
 
 ### Oct 1 (Day 8)
 
-  - [ ] Begin [Part C](./src/C/ReadMe.md)
-  - [ ] Lecture: SASS (docs/slides/DMIT2008-Week4-Day1-sass.pptx)
-    - [ ] In-Class Demo: [SASS Modules](./src/C/nextjs-sass-modules-START/README.md)
-  - [ ] Lecture: Material Theming (docs/slides/DDMIT2008-Week4-Day2-Material-UI-CSS.pptx)
-    - [ ] In-Class Demo: [MUI Theming](./src/C/nextjs-mui-theming-START/README.md)
+  - [X] Begin [Part C](./src/C/ReadMe.md)
+  - [X] Lecture: SASS (docs/slides/DMIT2008-Week4-Day1-sass.pptx)
+    - [X] In-Class Demo: [SASS Modules](./src/C/nextjs-sass-modules-START/README.md)
+  - [X] Lecture: Material Theming (docs/slides/DDMIT2008-Week4-Day2-Material-UI-CSS.pptx)
+    - [X] In-Class Demo: [MUI Theming](./src/C/nextjs-mui-theming-START/README.md)
 
 
 ### Oct 5 (Day 9)
@@ -141,6 +141,8 @@
 
 -  Announcement: Assignment 2 DUE ON OCT 9
   - Continue Step 7 in [D - Event/State Fundamentals](./src/D/nextjs-event-state-fundamentals-START/README.md)
+
+### October 12 – Thanksgiving Day - Institute closed.
 
 
 ### Oct 15 (Day 11)
@@ -227,7 +229,7 @@
     - [Takeaways](./src/H/Takeaways.md)
 - **Homework**
 
-
+# November 12 & 13– Fall Break (combined with Remembrance Day on November 11).
 
 ### Nov 16 (Day 19)
 
