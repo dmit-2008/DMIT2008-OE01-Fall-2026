@@ -131,30 +131,31 @@
     - [X] In-Class Demo: [MUI Theming](./src/C/nextjs-mui-theming-START/README.md)
 
 
-### Oct 5 (Day 9)
+### Oct 5 (Day 9) Week 5
 
   - [ ] Begin [Part D](./src/D/ReadMe.md)
-  - [ ] Lecture: React State & Events
+  - [ ] Lecture: React State & Events (docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
   - [ ] Theory 1 - QUIZ in Brightspace
 
 ### Oct 8 (Day 10)
 
 -  Announcement: Assignment 2 DUE ON OCT 9
-  - Continue Step 7 in [D - Event/State Fundamentals](./src/D/nextjs-event-state-fundamentals-START/README.md)
+  - In-Class Demo: [D - Event/State Fundamentals](./src/D/nextjs-event-state-fundamentals-START/README.md)
+- Announcement: Assignment 3 - Job Posting Form will be released on Friday, October 9 and due after 2 weeks, Friday October 23.
 
 ### October 12 – Thanksgiving Day - Institute closed.
 
 
-### Oct 15 (Day 11)
+### Oct 15 (Day 11) Week 6
 
-- **Today**
-  - Complete Topic D - [JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
+  - In-Class Demo: [D - JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
   - [ ] Identify the [**main takeaways**](./src/D/Takeaways.md)
 
 
-### Oct 19 (Day 12)
+### Oct 19 (Day 12) Week 7
 
-- **Today** - Begin [Part E](./src/E/ReadMe.md)
+- [ ] Lecture: React State and REST APIs
+- - Begin [Part E](./src/E/ReadMe.md)
   - 15 Minutes: [API Calls](./src/E/react-rest-fundamentals-START/README.md)
     - **Use something other than Quotes!** - ~~https://www.apicountries.com ⭐ The Repo!!~~
     - [Countries and States](https://dgilleland.github.io/CPSC-1520/api/countries/states.json)
@@ -165,16 +166,13 @@
     - 📺 [What Is REST API? Examples And How To Use It: Crash Course System Design](https://youtu.be/-mN3VyJuCjM?si=mSE4UNsvRJ9p_xTO) (**5:20**)
   - 90 Minutes: [REST Calls on an API](./src/E/react-rest-reviews-app-START/README.md)
   - [ ] Identify the [**main takeaways**](./src/E/Takeaways.md)
-- **Homework**
-  - [ ] Try the refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md) on your own
-  - [ ] Begin ***Assignment 3*** - States, Events and Templating
-- **Homework**
-  - Read [Sharing State](https://dgilleland.github.io/DMIT-2008/reference/00350/)
+  - [ ] Refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md) 
+  - Read on your own [Sharing State](https://dgilleland.github.io/DMIT-2008/reference/00350/)
 
 
 ### Oct 22 (Day 13)
 
-- **Today**
+-  Announcement: Assignment 3 DUE ON OCT 23
   - [ ] Continue with [refactoring the API calls](./src/E/react-rest-reviews-app-START/README-DAY-2.md)
   - [ ] Get the Starter Kit for the demo on lifting state up in React; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
@@ -182,127 +180,115 @@
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/E/lift-state-up ./src/E/lift-state-up
       ```
 
-- **Homework**
+- Announcement: Assignment 4a - Reimplementing our Job Board with React will be released on Friday, October 23 and due after 2 weeks, Friday November 6.
 
-### Oct 26 (Day 14)
+### Oct 26 (Day 14) Week 8
 
-- **Today**
   - [Part F](./src/F/ReadMe.md) - **Deploying to Vercel**
     - Try the [Deploy-React-App](https://github.com/dgilleland/Deploy-React-App) as a starter kit.
     - We'll need to **adapt the instructions** so that you use your **personal GitHub account** for this demo
     - 🚨 **NEVER** publish marked assignments outside of the provided *GitHub Classroom assignment repos*. This includes *after you finish this course*.
-- **Homework**
+- **Your Task**
   - Try deploying another website of yours to Vercel.
 
 
 
 ### Oct 29 (Day 15)
 
-- **Today**
+  - Lecture: React Component Lifecycle
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
-- **Homework**
+- **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
   - Read the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
 
 
 
-### Nov 2 (Day 16)
+### Nov 2 (Day 16) Week 9
 
-- **Today**
   - Continue [Part G](./src/G/ReadMe.md) - **React Components and LifeCycle**
-- **Homework**
-
 
 
 ### Nov 5 (Day 17)
 
-- **Today**
-  - *Work Period*
-- **Homework**
+  - Announcement: Assignment 4a DUE ON NOV 6 
+  - Lecture: Next.js Pages and Pagination
+  - Announcement: Assignment 4b - Routing and Pages with our Job Board will be released on Friday November 6 and due after 2.5 weeks, at Friday November 25.
 
 
 
-### Nov 9 (Day 18)
+### Nov 9 (Day 18) Week 10
 
-- **Today**
   - [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
     - [Takeaways](./src/H/Takeaways.md)
-- **Homework**
 
 # November 12 & 13– Fall Break (combined with Remembrance Day on November 11).
 
-### Nov 16 (Day 19)
+### Nov 16 (Day 19) Week 11
 
-- **Today**
+- Lecture  - Next.js 12 Frontend Features
   - [Part I](./src/I/ReadMe.md) - **SSR**
     - [Astronauts](./src/I/nextjs-12-space-page-ssr-START/README.md)
     - [Takeaways](./src/I/Takeaways.md)
     - [SSR Calls to the Backend](./src/I/nextjs-12-reviews-app-ssr-START/README.md)
     - Follow along on [**Week 10, Day 1**](http://dgilleland.github.io/DMIT-2008/lessons/w10-d1/)
-- **Homework**
 
 
 
 ### Nov 19 (Day 20)
 
-- **Today**
-  - *Assignment 4A* - QnA + Lab Time
-- **Homework**
+  - *Assignment 4b* - QnA + Lab Time
+- Announcement: Final Project - Theory 2 will be released on November 20 and will be due after 2 weeks December 4. It's NOT a regular provisioned repo/starter kit, you have to follow the instructions provided (https://github.com/DMIT-2008-Jan-2026/STARTER-KIT-Theory-2)
 
 
 
-### Nov 23 (Day 21)
+### Nov 23 (Day 21) Week 12
 
-- **Today**
+- Lecture - React Next.js and Testing
   - Testing - the start of a multi-day journey....
   - **Bonus Time:** Listen to me Lecture about Automated Testing... 😃
   - Begin [Part J](./src/J/ReadMe.md)
   - Review notes on [**Week 10, Day 2**](https://dgilleland.github.io/DMIT-2008/lessons/w12-d1/)
-- **Homework**
+- Announcement: Assignment 4b DUE ON NOV 25
 
 
 
 ### Nov 26 (Day 22)
 
-- **Today**
+- Lecture - Testing with Jest, Expect and Mocks
   - Testing (cont.)
   - Continue [Part J](./src/J/ReadMe.md)
     - *Watch for 🐞 - Snag hit in outdated demo*
-- **Homework**
 
 
 
-### Nov 30 (Day 23)
+### Nov 30 (Day 23) Week 13
 
-- **Today**
+- Announcement: Assignment 5 - Testing an Application with Jest and React Testing Library released today November 30 and will be due in 2.5 weeks December 16
   - *Work Period*
-- **Homework**
+
 
 
 ### Dec 3 (Day 24)
 
 
-- **Today**
+- Announcement: Final Project (Theory 2) DUE ON DEC 4
   - *Work Period*
 - **Homework**
 
 
 
-### Dec 7 (Day 25)
+### Dec 7 (Day 25) Week 14
 
-- **Today**
   - Begin [Part K](./src/K/ReadMe.md)
     - `useContext()` and Application State
     - This has a [**backend**](./src/K/rest-reviews-with-context-toast-START/reviews-mock-backend) and a [**front-end**](./src/K/rest-reviews-with-context-toast-START/reviews-rest-app)
     - We will follow the [**instructions**](./src/K/rest-reviews-with-context-toast-START/README.md) and see where they lead....
-- **Homework**
+
 
 
 
 ### Dec 10 (Day 26)
 
-- **Today**
-  - About *Assignment **5***
   - Continue [Part K](./src/K/ReadMe.md)
     - Authentication
       - Video (6:22): [Why OAuth is Breaking Your App - Fix These 10 Mistakes](https://youtu.be/WrA1XVtaU0g?si=lsGyTqYhl9vmoSfb)
@@ -312,12 +298,11 @@
 
 
 
-### Dec 14 (Day 27)
+### Dec 14 (Day 27) Week 15
 
-- **Today**
+- Announcement: Assignment 5 DUE ON DEC 16
   - Complete [Part K](https://github.com/DG-InClass/DMIT-2008-A01-Sep-2025/blob/main/src/K/authentication-example-START/README.md#9-lets-protect-our-dashboard-page-this-should-only-available-to-users-that-are-authenticated-so-we-want-to-reroute-our-unauthenticated-users-lets-do-this-with-our-useauth-hook) <!-- ewww -- >
   - General Review
-- **Homework**
 
 
 
