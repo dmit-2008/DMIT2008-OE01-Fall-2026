@@ -135,6 +135,9 @@
 
   - [ ] Begin [Part D](./src/D/ReadMe.md)
   - [ ] Lecture: React State & Events (docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
+  - [ ] Important Feature of REACT: Component Instances Work In Isolation [See Example](https://codesandbox.io/p/sandbox/r2yvlq?file=%2Fsrc%2FApp.js)
+    - Click each button separately and notice how each button "remembers" its own count state and doesn't affect other buttons.
+    - Thus, if you render the same component multiple times, each will get its own state.
   - [ ] Theory 1 - QUIZ in Brightspace
 
 ### Oct 8 (Day 10)
