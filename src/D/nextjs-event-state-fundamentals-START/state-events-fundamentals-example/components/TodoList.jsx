@@ -10,19 +10,23 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import Typography from "@mui/material/Typography";
 
+// For the delete button
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
+
 // Initial TODO list
 const INITIAL_TODOS = [
-  'create the list in mui',
-  'get the text and update state',
-  'make sure we understand lists'
-]
+  "create the list in mui",
+  "get the text and update state",
+  "make sure we understand lists",
+];
 
 export default function TodoList() {
   // State variable for the text input
   const [todoText, setTodoText] = useState("");
 
   // State variable for the list of todos
-  const [allTodos, setAllTodos] = useState([]);
+  const [allTodos, setAllTodos] = useState(INITIAL_TODOS);
 
   // Event handler for text change
   const onTodoTextChange = (event) => {
@@ -40,6 +44,17 @@ export default function TodoList() {
     setAllTodos(newTodos);
     // clear the text input
     setTodoText("");
+  };
+
+  // Removing an item from the list
+  const removeTodo = (index) => {
+    // make a copy of the list
+    let tempTodos = [...allTodos];
+    // use our knowledge of filter or splice to remove
+    // the item at the index
+    tempTodos.splice(index, 1);
+    // set the updated list
+    setAllTodos(tempTodos);
   };
 
   return (
@@ -65,9 +80,21 @@ export default function TodoList() {
         </Grid> */}
         {/* for the list of todos */}
         <List sx={{ width: `100%` }}>
+          {allTodos.length === 0 && (
+            <ListItem>
+              <ListItemText primary="no todos yet!, feel free to add some." />
+            </ListItem>
+          )}
           {allTodos.map((todoItem, index) => {
             return (
-              <ListItem key={index}>
+              <ListItem
+                key={index}
+                secondaryAction={
+                  <IconButton edge="end" onClick={() => removeTodo(index)}>
+                    <CloseIcon />
+                  </IconButton>
+                }
+              >
                 <ListItemText>
                   <Typography variant="p" component="div">
                     {todoItem}
