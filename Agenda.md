@@ -133,45 +133,45 @@
 
 ### Oct 5 (Day 9) Week 5
 
-  - [ ] Begin [Part D](./src/D/ReadMe.md)
-  - [ ] Lecture: React State & Events (docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
-  - [ ] Important Feature of REACT: Component Instances Work In Isolation [See Example](https://codesandbox.io/p/sandbox/r2yvlq?file=%2Fsrc%2FApp.js)
+  - [X] Begin [Part D](./src/D/ReadMe.md)
+  - [X] Lecture: React State & Events (docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
+  - [X] Important Feature of REACT: Component Instances Work In Isolation [See Example](https://codesandbox.io/p/sandbox/r2yvlq?file=%2Fsrc%2FApp.js)
     - Click each button separately and notice how each button "remembers" its own count state and doesn't affect other buttons.
     - Thus, if you render the same component multiple times, each will get its own state.
-  - [ ] Theory 1 - QUIZ in Brightspace
+  - [X] Theory 1 - QUIZ in Brightspace
 
 ### Oct 8 (Day 10)
 
--  Announcement: Assignment 2 DUE ON OCT 9
-  - In-Class Demo: [D - Event/State Fundamentals](./src/D/nextjs-event-state-fundamentals-START/README.md)
-- Announcement: Assignment 3 - Job Posting Form will be released on Friday, October 9 and due after 2 weeks, Friday October 23.
+-  [X] Announcement: Assignment 2 DUE ON OCT 9
+  - [X] In-Class Demo: [D - Event/State Fundamentals](./src/D/nextjs-event-state-fundamentals-START/README.md)
+- [X] Announcement: Assignment 3 - Job Posting Form will be released on Friday, October 9 and due after 2 weeks, Friday October 23.
 
 ### October 12 – Thanksgiving Day - Institute closed.
 
 
 ### Oct 15 (Day 11) Week 6
 
-  - In-Class Demo: [D - JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
+  - [ ] In-Class Demo: [D - JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
+  - [ ] Code Refactoring to create MovieFilterForm and MovieList on seperate components
   - [ ] Identify the [**main takeaways**](./src/D/Takeaways.md)
 
 
 ### Oct 19 (Day 12) Week 7
 
-- [ ] Lecture: React State and REST APIs
-- - Begin [Part E](./src/E/ReadMe.md)
-  - 15 Minutes: [API Calls](./src/E/react-rest-fundamentals-START/README.md)
-    - **Use something other than Quotes!** - ~~https://www.apicountries.com ⭐ The Repo!!~~
-    - [Countries and States](https://dgilleland.github.io/CPSC-1520/api/countries/states.json)
-    - [Countries and Cities](https://dgilleland.github.io/CPSC-1520/api/countries/cities.json)
-  - 10 Minutes: **What is REST?**
+- [ ] Lecture: React State and REST APIs (docs/slides/DMIT2008-Week7-Day2-newest-React-state-and-rest-apis.pptx)
+- Begin Topic E [API Calls](./src/E/react-rest-fundamentals-START/README.md)
+    - **Use a custom back-end since Quote API is broken**
+-   In-Class Demo: [REST Calls on an API](./src/E/react-rest-reviews-app-START/README.md)
+  - [ ] Identify the [**main takeaways**](./src/E/Takeaways.md)
+  - [ ] Refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md)
+   
+  - Additional References:
+  - Read on your own time: [Sharing State](https://dgilleland.github.io/DMIT-2008/reference/00350/)
+  - Watch on your own time: **What is REST?**
     - 📺 [REST APIs Explained in 30 secs](https://youtube.com/shorts/hQUjpbb75eY?si=HQ_pLE1seM5Ry34a) (**0:30**)
     - 📺 [What is a Rest API? (in 2 Minutes)](https://youtu.be/WRsKs-K6iII?si=KmY0EUARM7WsNVsx) (**2:10**)
     - 📺 [What Is REST API? Examples And How To Use It: Crash Course System Design](https://youtu.be/-mN3VyJuCjM?si=mSE4UNsvRJ9p_xTO) (**5:20**)
-  - 90 Minutes: [REST Calls on an API](./src/E/react-rest-reviews-app-START/README.md)
-  - [ ] Identify the [**main takeaways**](./src/E/Takeaways.md)
-  - [ ] Refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md) 
-  - Read on your own [Sharing State](https://dgilleland.github.io/DMIT-2008/reference/00350/)
-
+  
 
 ### Oct 22 (Day 13)
 

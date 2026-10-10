@@ -1,0 +1,19 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "author": "Marcus Aurelius",
+            "quote": "Whatever anyone does or says, I’m bound to the good. Whatever anyone does or says, I must be what I am and show my true colors."
+        },
+        {
+            "id": 2,
+            "author":"Ryan Holiday",
+            "quote":"Great times are great softeners."
+        },
+        {
+            "id": 3,
+            "author": "Mingyur Rinpoche",
+            "quote": "When we become fixed in our perceptions we lose our ability to fly."
+        }
+    ]
+}

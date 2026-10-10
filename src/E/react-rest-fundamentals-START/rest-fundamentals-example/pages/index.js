@@ -1,3 +1,7 @@
+// import the state
+
+import { useState } from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -11,7 +15,44 @@ import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
+// install and run the project
+
 export default function Home() {
+  // I want you to also create a stateful object that will hold the "data" attribute from the
+  const [quoteData, setQuoteData] = useState({}) // the {} is an empty object.
+
+  const getRandomInt = (maxValue) => {
+    // this is going to get an integer from 1 to 3
+    return Math.ceil(Math.random()*maxValue)
+  }
+
+  // create function hook it up to get new quote
+  const renderQuote = async () => {
+    // fetch the url
+    // url: http://localhost:5000/quotes/1
+    try {
+      const randomInt = getRandomInt(3) // because we have 3 quotes.
+      // making the fetch request.
+      const response = await fetch(
+        `http://localhost:5000/quotes/${randomInt}`,
+        {
+          method: "GET" // get is the default, we'll specify this because
+          // later on in the next example we'll take a deeper look at different
+          // method.
+        }
+      )
+      // I want to set the data of the response.json() to the state try to update it.
+      const data = await response.json()
+       // we're going to take this data fetched
+      // set it to the state
+      setQuoteData(data);
+    } catch (error) {
+      console.log("there's an error")
+      console.log(error)
+      // display this to the user in some way.
+    }
+
+  }
 
 
   return (
@@ -42,7 +83,15 @@ export default function Home() {
             }}
           >
             <Typography variant="h5" align="center" color="text.primary" paragraph>
-              Quote here.
+              {/* check if
+              quoteData.quote exist */}
+              {
+                quoteData.quote ? // true if any exist
+                quoteData.quote // the quote data fetched
+                :
+                "Quote here." // the default value
+              }
+
             </Typography>
             <Typography
               component="h1"
@@ -51,7 +100,12 @@ export default function Home() {
               color="text.secondary"
               gutterBottom
             >
-              Author here
+              {
+                quoteData.author ? // true if any exist
+                quoteData.author // the quote data fetched
+                :
+                "Author here." // the default value
+              }
             </Typography>
             <Box
              display="flex"
@@ -60,6 +114,7 @@ export default function Home() {
             >
               <Button
                 variant="contained"
+                onClick={renderQuote}
               >
                 Get New Quote
               </Button>
