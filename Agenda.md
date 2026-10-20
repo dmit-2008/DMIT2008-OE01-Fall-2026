@@ -151,19 +151,19 @@
 
 ### Oct 15 (Day 11) Week 6
 
-  - [ ] In-Class Demo: [D - JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
-  - [ ] Code Refactoring to create MovieFilterForm and MovieList on seperate components
-  - [ ] Identify the [**main takeaways**](./src/D/Takeaways.md)
+  - [X] In-Class Demo: [D - JSX Conditionals](./src/D/nextjs-event-state-jsx-conditionals-START/README.md)
+  - [X] Code Refactoring to create MovieFilterForm and MovieList on seperate components
+  - [X] Identify the [**main takeaways**](./src/D/Takeaways.md)
 
 
 ### Oct 19 (Day 12) Week 7
 
-- [ ] Lecture: React State and REST APIs (docs/slides/DMIT2008-Week7-Day2-newest-React-state-and-rest-apis.pptx)
+- [X] Lecture: React State and REST APIs (docs/slides/DMIT2008-Week7-Day2-newest-React-state-and-rest-apis.pptx)
 - Begin Topic E [API Calls](./src/E/react-rest-fundamentals-START/README.md)
     - **Use a custom back-end since Quote API is broken**
 -   In-Class Demo: [REST Calls on an API](./src/E/react-rest-reviews-app-START/README.md)
-  - [ ] Identify the [**main takeaways**](./src/E/Takeaways.md)
-  - [ ] Refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md)
+  - [X] Identify the [**main takeaways**](./src/E/Takeaways.md)
+  - [X] Refactoring of the [Rest Review Day 2](./src/E/react-rest-reviews-app-START/README-DAY-2.md)
    
   - Additional References:
   - Read on your own time: [Sharing State](https://dgilleland.github.io/DMIT-2008/reference/00350/)
@@ -176,7 +176,6 @@
 ### Oct 22 (Day 13)
 
 -  Announcement: Assignment 3 DUE ON OCT 23
-  - [ ] Continue with [refactoring the API calls](./src/E/react-rest-reviews-app-START/README-DAY-2.md)
   - [ ] Get the Starter Kit for the demo on lifting state up in React; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
       ```ps
@@ -198,7 +197,7 @@
 
 ### Oct 29 (Day 15)
 
-  - Lecture: React Component Lifecycle
+  - Lecture: React Component Lifecycle (docs/slides/DMIT2008-Week8-Day1-component-lifecycle-new.pptx)
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.

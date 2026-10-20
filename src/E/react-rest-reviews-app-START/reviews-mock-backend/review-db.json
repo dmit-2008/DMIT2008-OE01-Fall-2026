@@ -1,16 +1,41 @@
 {
   "reviews": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Wheel of time",
       "comment": "Books were great but the show was just okay. ",
       "rating": 8
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "The Lord of the rings",
       "comment": "A classic movie and a classic book series as well!",
       "rating": 10
-    } 
-  ]
+    },
+    {
+      "title": "Game of thrones",
+      "comment": "Books were graphic, show was great until the last 2 seasons",
+      "rating": 9,
+      "id": "yakbjVUrcvA"
+    },
+    {
+      "title": "qwerrt",
+      "comment": "qweq",
+      "rating": "1",
+      "id": "5qq4vRkUFAI"
+    },
+    {
+      "title": "Narnia",
+      "comment": "Good",
+      "rating": "9",
+      "id": "51RYm_3a2BI"
+    },
+    {
+      "title": "test abc",
+      "comment": "123213",
+      "rating": "9",
+      "id": "FCEzM26uzUs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

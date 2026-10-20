@@ -1,15 +1,11 @@
+import { useState, useEffect } from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 
 import AppBar from '@mui/material/AppBar';
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-
-import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
 
 import Container from '@mui/material/Container';
 
@@ -27,14 +23,44 @@ import TextField from '@mui/material/TextField';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
-
+import AdaptationReviewCard from '../components/AdaptationReviewCard'
+import { getReviews, postReview } from '../utils/api/review'
 
 export default function Home() {
-  const MOCK_ADAPTATION_RATING = [{
-    'title': 'Fight Club',
-    'comment': 'Great movie and book',
-    'rating': 10
-  }]
+
+  // State for reviews
+  const [reviews, setReviews] = useState([])
+  // States for input fields
+  const [title, setTitle] = useState("")
+  const [comments, setComments] = useState("")
+  const [rating, setRating] = useState(0)
+
+  // Load review instantaneously on page load
+  useEffect(()=>{
+    console.log("Home mounted!")
+    loadAllReviews()
+  }, [])
+
+  // Function to load all reviews when button is clicked
+  const loadAllReviews = () => {
+    getReviews().then((data)=> {
+        setReviews(data)
+    })
+  }
+
+  // Save the reviews that we add
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    postReview({
+      title,
+      comment: comments,
+      rating
+    }).then((data)=>{
+      setReviews([data, ...reviews])
+    })
+  }
+
+
   return (
     <div>
       <Head>
@@ -51,7 +77,9 @@ export default function Home() {
       </AppBar>
       <main>
         <Container maxWidth="md">
-          <form>
+          <form
+            onSubmit={handleSubmit}
+           >
             <Grid container spacing={3}>
               <Grid item xs={12} sm={12}>
                 <TextField
@@ -60,6 +88,8 @@ export default function Home() {
                   label="Adaptation Title"
                   fullWidth
                   variant="standard"
+                  value={title}
+                  onChange={(event)=>{setTitle(event.target.value)}}
                 />
               </Grid>
               <Grid item xs={12} sm={12}>
@@ -69,6 +99,8 @@ export default function Home() {
                   label="Comments"
                   fullWidth
                   variant="standard"
+                  value={comments}
+                  onChange={(event)=>{setComments(event.target.value)}}
                 />
               </Grid>
               <Grid item xs={12} sm={12}>
@@ -78,6 +110,8 @@ export default function Home() {
                     row
                     aria-labelledby="adaptation-rating"
                     name="rating-buttons-group"
+                    value={rating}
+                    onChange={(event)=>{setRating(event.target.value)}}
                   >
                     <FormControlLabel value="1" control={<Radio />} label="1" />
                     <FormControlLabel value="2" control={<Radio />} label="2" />
@@ -110,32 +144,18 @@ export default function Home() {
           >
             <Button
               variant="contained"
+              onClick={loadAllReviews}
             >
               Load All Current Reviews
             </Button>
           </Box>
-          {MOCK_ADAPTATION_RATING.map((adaptation, index)=> {
-            return <Card key={index}>
-              <CardHeader
-                avatar={
-                  <Avatar sx={{ bgcolor: 'blue' }} aria-label="recipe">
-                    {adaptation.rating}
-                  </Avatar>
-                }
-                
-                title={
-                  <Typography variant="body2" color="text.secondary">
-                    {adaptation.title}
-                  </Typography>
-                }
-                
-              />
-              <CardContent>
-                <Typography variant="body2" color="text.secondary">
-                  {adaptation.comment}
-                </Typography>
-              </CardContent>
-            </Card>
+          {reviews.map((adaptation, index)=> {
+            return <AdaptationReviewCard 
+              key={index}
+              rating={adaptation.rating}
+              title={adaptation.title}
+              comment={adaptation.comment}
+            />
           })}
 
         </Container>
