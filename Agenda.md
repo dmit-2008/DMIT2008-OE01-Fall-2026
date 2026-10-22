@@ -181,8 +181,8 @@
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/E/lift-state-up ./src/E/lift-state-up
       ```
-
-- Announcement: Assignment 4a - Reimplementing our Job Board with React will be released on Friday, October 23 and due after 2 weeks, Friday November 6.
+- [ ] [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+- [ ] Discuss Assignment 4a - Reimplementing our Job Board with React will be released on Friday, October 23 and due after 2 weeks, Friday November 6.
 
 ### Oct 26 (Day 14) Week 8
 
@@ -201,7 +201,7 @@
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
-  - Read the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
+  - Review the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
 
 
 
