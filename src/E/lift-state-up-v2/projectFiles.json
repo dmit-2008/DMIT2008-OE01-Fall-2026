@@ -1,0 +1,74 @@
+{
+    "nodeName": "Lift State Up",
+    "description": "This is the root of the project. The purpose of this project is to illustrate the concept of lifting state up in React.",
+    "childNodes": [
+        {
+            "nodeName": "components",
+            "description": "This folder is used to hold React components",
+            "childNodes": [
+                {
+                    "nodeName": "FolderView.js",
+                    "description": "This renders a tree-like structure of the nodes in a `projectFiles.json` dataset.",
+                    "childNodes": []
+                },
+                {
+                    "nodeName": "Description.js",
+                    "description": "This renders the description of a node in a `projectFiles.json` dataset.",
+                    "childNodes": []
+                }
+            ]
+        },
+        {
+            "nodeName": "pages",
+            "description": "These are the routes that render as distinct pages. The files here are React components.",
+            "childNodes": [
+                {
+                    "nodeName": "_app.js",
+                    "description": "This is not a distinct page. Rather, it is the default container component for the rendered page.",
+                    "childNodes": []
+                },
+                {
+                    "nodeName": "_document.js",
+                    "description": "This is not a distinct page. Rather, it is the HTML template that is shared among all rendered pages.",
+                    "childNodes": []
+                },
+                {
+                    "nodeName": "index.js",
+                    "description": "This is the default page. It renders a `<Home>` component.",
+                    "childNodes": []
+                }
+            ]
+        },
+        {
+            "nodeName": "styles",
+            "description": "This folder contains CSS styles",
+            "childNodes": [
+                {
+                    "nodeName": "globals.css",
+                    "description": "This is the global CSS styles loaded by the `_app.js`.",
+                    "childNodes": []
+                }
+            ]
+        },
+        {
+            "nodeName": ".eslintrc.json",
+            "description": "This is the linting standards for NextJS React Core.",
+            "childNodes": []
+        },
+        {
+            "nodeName": "next.config.js",
+            "description": "This is the configuration for NextJS in this project",
+            "childNodes": []
+        },
+        {
+            "nodeName": "package.json",
+            "description": "The is the root configuration for the Node project. Key parts of this include the `\"dependencies\"` and `\"devDependencies\"`",
+            "childNodes": []
+        },
+        {
+            "nodeName": "projectFiles.json",
+            "description": "This is the JSON data for the project's files. I am describing myself. (How meta...)",
+            "childNodes": []
+        }
+    ]
+}
