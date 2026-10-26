@@ -16,8 +16,7 @@
 
 ### Sept 3 (Day 1)
 
-- Overview of Front-End Frameworks
-  - Reference: (docs/slides/DMIT2008-Week1-Day1-new.pptx)
+- Lecture: [Overview of Front-End Frameworks](./docs/slides/DMIT2008-Week1-Day1-new.pptx)
 - Required Tools
    - [X] VS Code
    - [X] git
@@ -27,7 +26,7 @@
 
 ### Sept 10 (Day 2)
 
-- Lecture: JS Refresh - Language Fundamentals (docs/slides/DMIT2008-Week1-Day2-new.pptx)
+- Lecture: [JS Refresh - Language Fundamentals](./docs/slides/DMIT2008-Week1-Day2-new.pptx)
   - Expectations
   - ES5 vs Newer versions of ECMA Script
   - Review
@@ -51,7 +50,7 @@
 
 ### Sept 14 (Day 3)
 
-  - Lecture: JS Refresh - NPM ES Modules (docs/slides/DMIT2008-Week2-Day1-new.pptx)
+  - Lecture: [JS Refresh - NPM ES Modules](./docs/slides/DMIT2008-Week2-Day1-new.pptx)
     - JS Object Fundamentals
     - JS Object functions and this
     - Node and NPM
@@ -68,7 +67,7 @@
 
 ### Sept 17 (Day 4)
 
-  - Lecture: JS Wrap-up (docs/slides/DMIT2008-Week2-Day2.pptx)
+  - Lecture: [JS Wrap-up](./docs/slides/DMIT2008-Week2-Day2.pptx)
   - [X] Sign up for the [Open Weather API](https://home.openweathermap.org/users/sign_up)
   - [X] Get the Starter Kit for the Weather App in-class demo; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
@@ -91,14 +90,14 @@
 
  - 5pm - 6pm: Student Work Period (Assignment #1 - Job Search App, Weather App, Astronaut, VITE)
  - Begin Topic B at 6pm
-  - [X] Lecture: React & Next.js (docs/slides/DMIT2008-Week3-Day1-react-new.pptx)
+  - [X] Lecture: [React & Next.js](./docs/slides/DMIT2008-Week3-Day1-react-new.pptx)
   - [X] Examples in Student Workbook Topic B:
     - [NextJS Intro](./src/B/nextjs-intro-START/README.md)
 
 
 ### Sept 24 (Day 6)
 
-  - [X] Lecture: React Props & Wrapper MUI (docs/slides/DMIT2008-Week3-Day2-react-props-and-wrappers-mui.pptx)
+  - [X] Lecture: [React Props & Wrapper MUI](./docs/slides/DMIT2008-Week3-Day2-react-props-and-wrappers-mui.pptx)
   - [X] Continue Examples in Student Workbook Topic B:
     - [NextJS Components Intro](./src/B/nextjs-components-intro-START/README.md)
     - [NextJS Component Lists](./src/B/nextjs-component-lists-START/README.md)
@@ -125,7 +124,7 @@
 ### Oct 1 (Day 8)
 
   - [X] Begin [Part C](./src/C/ReadMe.md)
-  - [X] Lecture: SASS (docs/slides/DMIT2008-Week4-Day1-sass.pptx)
+  - [X] Lecture: [SASS](./docs/slides/DMIT2008-Week4-Day1-sass.pptx)
     - [X] In-Class Demo: [SASS Modules](./src/C/nextjs-sass-modules-START/README.md)
   - [X] Lecture: Material Theming (docs/slides/DDMIT2008-Week4-Day2-Material-UI-CSS.pptx)
     - [X] In-Class Demo: [MUI Theming](./src/C/nextjs-mui-theming-START/README.md)
@@ -134,7 +133,7 @@
 ### Oct 5 (Day 9) Week 5
 
   - [X] Begin [Part D](./src/D/ReadMe.md)
-  - [X] Lecture: React State & Events (docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
+  - [X] Lecture: [React State & Events](./docs/slides/DMIT2008-Week5-Day1-newest-React-effect-state-jsx-conditionals.pptx)
   - [X] Important Feature of REACT: Component Instances Work In Isolation [See Example](https://codesandbox.io/p/sandbox/r2yvlq?file=%2Fsrc%2FApp.js)
     - Click each button separately and notice how each button "remembers" its own count state and doesn't affect other buttons.
     - Thus, if you render the same component multiple times, each will get its own state.
@@ -158,7 +157,7 @@
 
 ### Oct 19 (Day 12) Week 7
 
-- [X] Lecture: React State and REST APIs (docs/slides/DMIT2008-Week7-Day2-newest-React-state-and-rest-apis.pptx)
+- [X] Lecture: [React State and REST APIs](./docs/slides/DMIT2008-Week7-Day2-newest-React-state-and-rest-apis.pptx)
 - Begin Topic E [API Calls](./src/E/react-rest-fundamentals-START/README.md)
     - **Use a custom back-end since Quote API is broken**
 -   In-Class Demo: [REST Calls on an API](./src/E/react-rest-reviews-app-START/README.md)
@@ -176,18 +175,19 @@
 ### Oct 22 (Day 13)
 
 -  Announcement: Assignment 3 DUE ON OCT 23
-  - [ ] Get the Starter Kit for the demo on lifting state up in React; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
+  - [X] Get the Starter Kit for the demo on lifting state up in React; this is an *ad-hoc* starter kit that you can quickly grab using `pnpm`.
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/DMIT-2008-A01-Jan-2026/sk/E/lift-state-up ./src/E/lift-state-up
       ```
-- [ ] [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
-- [ ] Discuss Assignment 4a - Reimplementing our Job Board with React will be released on Friday, October 23 and due after 2 weeks, Friday November 6.
+- [X] [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+- [X] Discuss Assignment 4a - Reimplementing our Job Board with React will be released on Friday, October 23 and due after 2 weeks, Friday November 6.
 
 ### Oct 26 (Day 14) Week 8
 
-  - [Part F](./src/F/ReadMe.md) - **Deploying to Vercel**
-    - Try the [Deploy-React-App](https://github.com/dgilleland/Deploy-React-App) as a starter kit.
+  - Lecture: [Deployment with Vercel](./docs/slides/DMIT2008-Week8-Day1-Deployment-with-vercel.pptx)
+  - [ ] [Part F](./src/F/ReadMe.md) - **Deploying to Vercel**
+    - [ ] Try the [Deploy-React-App](https://github.com/dgilleland/Deploy-React-App) as a starter kit.
     - We'll need to **adapt the instructions** so that you use your **personal GitHub account** for this demo
     - 🚨 **NEVER** publish marked assignments outside of the provided *GitHub Classroom assignment repos*. This includes *after you finish this course*.
 - **Your Task**
@@ -197,7 +197,7 @@
 
 ### Oct 29 (Day 15)
 
-  - Lecture: React Component Lifecycle (docs/slides/DMIT2008-Week8-Day1-component-lifecycle-new.pptx)
+  - Lecture: [React Component Lifecycle](./docs/slides/DMIT2008-Week8-Day1-component-lifecycle-new.pptx)
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
