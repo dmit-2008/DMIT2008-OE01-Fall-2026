@@ -199,7 +199,7 @@
 
   - Lecture: [React Component Lifecycle](./docs/slides/DMIT2008-Week8-Day1-component-lifecycle-new.pptx)
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
-  - [ ] In-class Demo (./src/G/reviews-app-with-lifecycle-START)
+  - [ ] [In-class Demo](./src/G/reviews-app-with-lifecycle-START)
   - More about [useEffect](./src/G/useEffect.md)
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
