@@ -186,8 +186,8 @@
 ### Oct 26 (Day 14) Week 8
 
   - Lecture: [Deployment with Vercel](./docs/slides/DMIT2008-Week8-Day1-Deployment-with-vercel.pptx)
-  - [ ] [Part F](./src/F/ReadMe.md) - **Deploying to Vercel**
-    - [ ] Try the [Deploy-React-App](https://github.com/dgilleland/Deploy-React-App) as a starter kit.
+  - [X] [Part F](./src/F/ReadMe.md) - **Deploying to Vercel**
+    - [X] Try the [Deploy-React-App](https://github.com/dgilleland/Deploy-React-App) as a starter kit.
     - We'll need to **adapt the instructions** so that you use your **personal GitHub account** for this demo
     - 🚨 **NEVER** publish marked assignments outside of the provided *GitHub Classroom assignment repos*. This includes *after you finish this course*.
 - **Your Task**
@@ -202,6 +202,7 @@
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
   - Review the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
+  - Read [useEffect - Connecting to an External System](https://react.dev/reference/react/useEffect#connecting-to-an-external-system)
 
 
 
