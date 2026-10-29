@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 import Head from 'next/head'
 import Image from 'next/image'
@@ -33,6 +33,11 @@ export default function Home() {
   const [comments, setComments] = useState("")
   const [rating, setRating] = useState(0)
 
+  useEffect(()=>{
+    console.log("Home mounted.")
+    loadAllReviews()
+  }, [])
+
   const handleSubmit = (event) => {
     event.preventDefault()
     postReview({
@@ -44,7 +49,7 @@ export default function Home() {
       })
   }
 
-  const loadAllReviewsButton = () => {
+  const loadAllReviews = () => {
     getReviews().then((data)=> {
       setReviews(data)
     })
@@ -136,12 +141,6 @@ export default function Home() {
               pb: 2,
             }}
           >
-            <Button
-              variant="contained"
-              onClick={loadAllReviewsButton}
-            >
-              Load All Current Reviews
-            </Button>
           </Box>
           {reviews.map((adaptation, index)=> {
             return <AdaptationReviewCard
