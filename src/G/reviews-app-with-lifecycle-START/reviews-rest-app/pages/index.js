@@ -38,6 +38,18 @@ export default function Home() {
     loadAllReviews()
   }, [])
 
+  // Track updates for "reviews", debussing purposes
+  useEffect(()=>{
+    console.log(reviews)
+  }, [reviews])
+
+  const deleteReviewItem = (deleteReviewId) => {
+    let allReviews = reviews.filter((review)=>{
+      return review.id !== deleteReviewId
+    })
+    setReviews(allReviews)
+  }
+
   const handleSubmit = (event) => {
     event.preventDefault()
     postReview({
@@ -145,6 +157,8 @@ export default function Home() {
           {reviews.map((adaptation, index)=> {
             return <AdaptationReviewCard
                 key={index}
+                id={adaptation.id}
+                deleteCallback={deleteReviewItem}
                 rating={adaptation.rating}
                 title={adaptation.title}
                 comment={adaptation.comment}
