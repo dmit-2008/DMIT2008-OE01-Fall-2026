@@ -199,7 +199,7 @@
 
   - Lecture: [React Component Lifecycle](./docs/slides/DMIT2008-Week8-Day1-component-lifecycle-new.pptx)
   - [Part G](./src/G/ReadMe.md) Intro - **React Components and LifeCycle**
-  - [ ] [In-class Demo](./src/G/reviews-app-with-lifecycle-START)
+  - [X] [In-class Demo](./src/G/reviews-app-with-lifecycle-START)
   - More about [useEffect](./src/G/useEffect.md)
 - **Your Tasks**
   - Install the [React Dev Tools](https://react.dev/learn/react-developer-tools) for your browser.
@@ -210,20 +210,21 @@
 
 ### Nov 2 (Day 16) Week 9
 
-  - Continue [Part G](./src/G/ReadMe.md) - **React Components and LifeCycle**
+  - REACT Concept Reviews, Questions and Catch-up!
+  - [ ] Lecture: Next.js Pages and Routing
 
 
 ### Nov 5 (Day 17)
 
   - Announcement: Assignment 4a DUE ON NOV 6 
-  - Lecture: Next.js Pages and Pagination
+  - [ ] In-class Demo [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
   - Announcement: Assignment 4b - Routing and Pages with our Job Board will be released on Friday November 6 and due after 2.5 weeks, at Friday November 25.
 
 
 
 ### Nov 9 (Day 18) Week 10
 
-  - [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
+  - Continue [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
     - [Takeaways](./src/H/Takeaways.md)
 
 # November 12 & 13– Fall Break (combined with Remembrance Day on November 11).
