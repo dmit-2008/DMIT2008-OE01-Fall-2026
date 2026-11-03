@@ -38,7 +38,7 @@ export default function Home() {
     loadAllReviews()
   }, [])
 
-  // Track updates for "reviews", debussing purposes
+  // Track updates for "reviews", debugging purposes
   useEffect(()=>{
     console.log(reviews)
   }, [reviews])
