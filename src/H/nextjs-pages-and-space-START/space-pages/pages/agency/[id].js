@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 import { getAgency } from 'utils/api/agencies.js';
+import SimpleDetailsCard from '@components/SimpleDetailsCard';
 
 export default function Agency() {
     const [agencyDetails, setAgencyDetails] = useState();
@@ -45,6 +46,52 @@ export default function Agency() {
                     <Typography variant="h3" gutterBottom>
                         {`${agencyDetails.name} (${agencyDetails.abbrev})`}
                     </Typography>
+                </Grid>
+                <Grid item xs={4}>
+                    <Typography variant="h5">
+                        {`Launch Details:`}
+                    </Typography>
+                    <SimpleDetailsCard 
+                        title={'Total Launches'}
+                        description={agencyDetails.total_launch_count}
+                    />
+                    <SimpleDetailsCard 
+                        title={'Successful Launches'}
+                        description={agencyDetails.successful_launches}
+                    />
+                    <SimpleDetailsCard 
+                        title={'Successful Landings'}
+                        description={agencyDetails.successful_landings}
+                    />  
+                </Grid>
+                <Grid item xs={4}>
+                    <Typography variant="h5">
+                        {`Agency Information`}
+                    </Typography>
+                    <SimpleDetailsCard 
+                        title={`Administrator`}
+                        description={agencyDetails.administrator}
+                    />
+                    <SimpleDetailsCard 
+                        title={`Space Agency Details`}
+                        description={`Founded ${agencyDetails.founding_year} in ${agencyDetails.country_code}`}
+                        subDescription={agencyDetails.description}
+                    />
+                </Grid>
+                <Grid item xs={4}>
+                    <Typography variant="h5">
+                        {`Spacecraft Information`}
+                    </Typography>
+                    { agencyDetails.spacecraft_list && agencyDetails.spacecraft_list.map((spacecraft) => {
+                        return <SimpleDetailsCard
+                            key={spacecraft.id}
+                            description={spacecraft.name}
+                            buttonCallback={() => {
+                                router.push(`/spacecraft/${spacecraft.id}`)
+                            }}
+                            buttonName="Go to Spacecraft"
+                        />
+                    })}
                 </Grid>
             </Grid>
         </Container>
