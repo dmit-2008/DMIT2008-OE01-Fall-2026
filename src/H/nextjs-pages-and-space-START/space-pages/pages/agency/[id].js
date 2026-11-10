@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 
 import { getAgency } from 'utils/api/agencies.js';
 import SimpleDetailsCard from '@components/SimpleDetailsCard';
+import LoadingCircle from '@components/LoadingCircle';
 
 export default function Agency() {
     const [agencyDetails, setAgencyDetails] = useState();
@@ -25,11 +26,12 @@ export default function Agency() {
             setAgencyDetails(data);
         })
     }, [id])
+    
 
     return <>
         <NavBar />
         {!agencyDetails ? 
-        <LoadingCricle /> 
+        <LoadingCircle/> 
         : 
         <Container sx={{ paddingTop: 2 }}>
             <Grid container>
