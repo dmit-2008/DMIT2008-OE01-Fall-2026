@@ -5,13 +5,12 @@ import Grid from '@mui/material/Grid';
 
 import NavBar from '@components/NavBar';
 import LoadingCircle from '@components/LoadingCircle';
+import SimpleDetailsCard from '@components/SimpleDetailsCard';
 
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 import { getAgency } from 'utils/api/agencies.js';
-import SimpleDetailsCard from '@components/SimpleDetailsCard';
-import LoadingCircle from '@components/LoadingCircle';
 
 export default function Agency() {
     const [agencyDetails, setAgencyDetails] = useState();
