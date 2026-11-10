@@ -4,7 +4,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 
 import NavBar from '@components/NavBar';
-import LoadingCricle from '@components/LoadingCircle';
+import LoadingCircle from '@components/LoadingCircle';
 
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
