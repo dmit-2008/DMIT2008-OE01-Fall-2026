@@ -1,4 +1,3 @@
-import {useState, useEffect} from 'react'
 import { useRouter } from 'next/router'
 
 import Head from 'next/head'
@@ -14,17 +13,31 @@ import LoadingCircle from '@components/LoadingCircle'
 
 import {getAgency} from '@utils/api/agencies'
 
-export default function Agency() {
-  const [agencyDetails, setAgencyDetails] = useState()
+export async function getServerSideProps(context){
+  const {id} = context.params
+
+  // getting the data using server side component
+  const agencyInfo = await getAgency(id)
+
+  // return the data as a props
+  return {
+    props: {
+      id: id,
+      agencyInfo: agencyInfo
+    }
+  }
+
+}
+
+export default function Agency(props) {
+
+  console.log("From the server")
+  console.log(props)
 
   const router = useRouter()
-  const { id } = router.query
 
-  useEffect(()=> {
-      getAgency(id).then((data)=> {
-          setAgencyDetails(data)
-      })
-  }, [id])
+  const agencyDetails = props.agencyInfo
+
 
   return <>
     <NavBar />
@@ -33,7 +46,7 @@ export default function Agency() {
       :
       <Container sx={{paddingTop:2}}>
         <Grid container>
-          <Grid item xs="2">
+          <Grid item xs={2}>
             <img
                 alt={agencyDetails.name}
                 src={agencyDetails.logo_url}
@@ -42,12 +55,12 @@ export default function Agency() {
                 }}
             />
           </Grid>
-          <Grid item xs="10">
+          <Grid item xs={10}>
             <Typography variant="h3" gutterBottom>
               {`${agencyDetails.name} (${agencyDetails.abbrev})`}
             </Typography>
           </Grid>
-          <Grid item xs="4">
+          <Grid item xs={4}>
             <Typography variant="h5">
                 {`Launch Details`}
             </Typography>
@@ -64,7 +77,7 @@ export default function Agency() {
                 description={`${agencyDetails.successful_landings}`}
             />
           </Grid>
-          <Grid item xs="4">
+          <Grid item xs={4}>
               <Typography variant="h5">
                   {`Agency Information`}
               </Typography>
@@ -78,7 +91,7 @@ export default function Agency() {
                   subDescription={agencyDetails.description}
               />
           </Grid>
-          <Grid item xs="4">
+          <Grid item xs={4}>
             <Typography variant="h5">
                 {`SpaceCraft`}
             </Typography>

@@ -1,7 +1,4 @@
 
-import { useEffect, useState } from 'react'
-
-
 import Head from 'next/head'
 
 import Typography from '@mui/material/Typography';
@@ -13,17 +10,23 @@ import NavBar from '@components/NavBar';
 
 import { getAgencies } from '@utils/api/agencies'
 
-export default function Home() {
-  const [agenciesData, setAgenciesData] = useState([])
-  
-  useEffect(()=> {
-    // fire this on load.
-    getAgencies().then((data)=> {
-      console.log(data)
-      setAgenciesData(data.results)
-    })
-  }, [])
+// this function will run on the next.js server
+export async function getServerSideProps(){
+  // get the data
+  const agencies = await getAgencies()
 
+  //return the data
+  return{
+    props: {
+      agenciesFromServer: agencies
+    }
+  }
+
+}
+
+export default function Home(props) {
+  console.log("From the server")
+  console.log(props)
 
   return (
     <div>
@@ -48,7 +51,7 @@ export default function Home() {
               alignItems: 'center',
             }}
           >
-            {agenciesData.map((agency)=> {
+            {props.agenciesFromServer.results.map((agency)=> {
               return <AgencyCard
                 key={agency.id}
                 id={agency.id}
