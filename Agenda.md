@@ -211,13 +211,13 @@
 ### Nov 2 (Day 16) Week 9
 
   - REACT Concept Reviews, Questions and Catch-up!
-  - [ ] Lecture: Next.js Pages and Routing
+  - [X] Lecture: [Next.js Pages and Routing](./docs/slides/DMIT2008-Week10-Day1-new-nextjs-pages-and-routing.pptx)
 
 
 ### Nov 5 (Day 17)
 
   - Announcement: Assignment 4a DUE ON NOV 6 
-  - [ ] In-class Demo [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
+  - [X] In-class Demo [Part H](./src/H/ReadMe.md) - **NextJS Routing and Pages**
   - Announcement: Assignment 4b - Routing and Pages with our Job Board will be released on Friday November 6 and due after 2.5 weeks, at Friday November 25.
 
 
@@ -231,13 +231,12 @@
 
 ### Nov 16 (Day 19) Week 11
 
-- Lecture  - Next.js 12 Frontend Features
+- Lecture: [Next.js 12 Frontend Features](./docs/slides/DMIT2008-Week13-Day2-Next.js-Framework-Features.pptx)
   - [Part I](./src/I/ReadMe.md) - **SSR**
-    - [Astronauts](./src/I/nextjs-12-space-page-ssr-START/README.md)
+    - [Space Station](./src/I/nextjs-12-space-page-ssr-START/README.md)
     - [Takeaways](./src/I/Takeaways.md)
     - [SSR Calls to the Backend](./src/I/nextjs-12-reviews-app-ssr-START/README.md)
-    - Follow along on [**Week 10, Day 1**](http://dgilleland.github.io/DMIT-2008/lessons/w10-d1/)
-
+    - Extra references: [**Week 10, Day 1**](http://dgilleland.github.io/DMIT-2008/lessons/w10-d1/)
 
 
 ### Nov 19 (Day 20)
