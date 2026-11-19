@@ -1,0 +1,29 @@
+{
+  "meals": [
+    {
+      "title": "Juicy Cheese Burger",
+      "slug": "juicy-cheese-burger",
+      "image": "burger.jpg",
+      "summary": "A mouth-watering burger with a juicy beef patty and melted cheese, served in a soft bun",
+      "creator": "John Doe",
+      "creator_email": "johndoe@example.com"
+    },
+    {
+      "title": "Spicy Curry",
+      "slug": "spicy-curry",
+      "image": "curry.jpg",
+      "summary": "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+      "creator": "Jane Doe",
+      "creator_email": "janedoe@example.com"
+    },
+    {
+      "title": "Homemade Dumplings",
+      "slug": "homemade-dumplings",
+      "image": "dumplings.jpg",
+      "summary": "Tender dumplings filled with savory meat and vegetables, steamed to perfection.",
+      "creator": "Emily Chen",
+      "creator_email": "emilychen@example.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
