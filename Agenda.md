@@ -241,7 +241,9 @@
 
 ### Nov 19 (Day 20)
 
-  - *Assignment 4b* - QnA + Lab Time
+- [x] [Summary of SSR](./src/I/requests_client_side_and_server_side_rendering.png)
+- [ ] [Sample of App Router - Foodies](./src/I/nextjs15-approuter-foodies-starting-project)
+- *Assignment 4b* - QnA + Lab Time
 - Announcement: Final Project - Theory 2 will be released on November 20 and will be due after 2 weeks December 4. It's NOT a regular provisioned repo/starter kit, you have to follow the instructions provided (https://github.com/DMIT-2008-Jan-2026/STARTER-KIT-Theory-2)
 
 
