@@ -242,7 +242,7 @@
 ### Nov 19 (Day 20)
 
 - [x] [Summary of SSR](./src/I/requests_client_side_and_server_side_rendering.png)
-- [ ] [Sample of App Router - Foodies](./src/I/nextjs15-approuter-foodies-starting-project)
+- [X] [Sample of App Router - Foodies](./src/I/nextjs15-approuter-foodies-starting-project)
 - *Assignment 4b* - QnA + Lab Time
 - Announcement: Final Project - Theory 2 will be released on November 20 and will be due after 2 weeks December 4. It's NOT a regular provisioned repo/starter kit, you have to follow the instructions provided (https://github.com/DMIT-2008-Jan-2026/STARTER-KIT-Theory-2)
 
@@ -250,7 +250,7 @@
 
 ### Nov 23 (Day 21) Week 12
 
-- Lecture - React Next.js and Testing
+- [ ] Lecture - [React Next.js and Testing](./docs/slides/DMIT2008-Week13-Day2-Testing-intro-new.pptx)
   - Testing - the start of a multi-day journey....
   - **Bonus Time:** Listen to me Lecture about Automated Testing... 😃
   - Begin [Part J](./src/J/ReadMe.md)
@@ -261,7 +261,7 @@
 
 ### Nov 26 (Day 22)
 
-- Lecture - Testing with Jest, Expect and Mocks
+- [ ] Lecture - [Testing with Jest, Expect and Mocks](./docs/slides/DMIT2008-Week14-Day2-Testing-jest-with-Mocks.pptx)
   - Testing (cont.)
   - Continue [Part J](./src/J/ReadMe.md)
     - *Watch for 🐞 - Snag hit in outdated demo*
@@ -280,7 +280,6 @@
 
 - Announcement: Final Project (Theory 2) DUE ON DEC 4
   - *Work Period*
-- **Homework**
 
 
 
@@ -301,7 +300,7 @@
       - Video (6:22): [Why OAuth is Breaking Your App - Fix These 10 Mistakes](https://youtu.be/WrA1XVtaU0g?si=lsGyTqYhl9vmoSfb)
     - This also has a [*backend*](./src/K/authentication-example-START/authentication-mock-backend/) and a [*front-end*](./src/K/authentication-example-START/app-state-auth-example-new/)
     - Again, we will follow the [*instructions*](./src/K/authentication-example-START/README.md) and see where we end up.
-- **Homework**
+
 
 
 
