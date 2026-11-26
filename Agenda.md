@@ -261,7 +261,7 @@
 
 ### Nov 26 (Day 22)
 
-- [ ] TDD Example 
+- [ ] [A TDD Example](https://dgilleland.github.io/DMIT-2008/lessons/w12-d2/#a-tdd-example)
 - [ ] Lecture - [Testing with Jest, Expect and Mocks](./docs/slides/DMIT2008-Week14-Day2-Testing-jest-with-Mocks.pptx)
   - Testing (cont.)
   - Continue [Part J](./src/J/ReadMe.md)
