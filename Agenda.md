@@ -250,7 +250,7 @@
 
 ### Nov 23 (Day 21) Week 12
 
-- [ ] Lecture - [React Next.js and Testing](./docs/slides/DMIT2008-Week13-Day2-Testing-intro-new.pptx)
+- [X] Lecture - [React Next.js and Testing](./docs/slides/DMIT2008-Week13-Day2-Testing-intro-new.pptx)
   - Testing - the start of a multi-day journey....
   - **Bonus Time:** Listen to me Lecture about Automated Testing... 😃
   - Begin [Part J](./src/J/ReadMe.md)
@@ -261,6 +261,7 @@
 
 ### Nov 26 (Day 22)
 
+- [ ] TDD Example 
 - [ ] Lecture - [Testing with Jest, Expect and Mocks](./docs/slides/DMIT2008-Week14-Day2-Testing-jest-with-Mocks.pptx)
   - Testing (cont.)
   - Continue [Part J](./src/J/ReadMe.md)
