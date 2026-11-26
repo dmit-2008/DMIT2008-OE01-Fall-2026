@@ -273,6 +273,7 @@
 
 - Announcement: Assignment 5 - Testing an Application with Jest and React Testing Library released today November 30 and will be due in 2.5 weeks December 16
   - *Work Period*
+  - [Review App Router](https://nextjs.org/docs/app/getting-started/layouts-and-pages)
 
 
 
